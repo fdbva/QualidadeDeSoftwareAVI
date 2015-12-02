@@ -5,7 +5,6 @@
  */
 package br.com.infnet.qualidadesoftware.av1;
 
-import br.com.infnet.qualidadesoftware.av1.CaixaEletronico.OperacaoUsuario;
 import java.util.Scanner;
 
 /**
@@ -13,8 +12,8 @@ import java.util.Scanner;
  * @author Felipe
  */
 class GerenciadorInput {
-    Scanner entradaUsuario;
-    int valorEntrado;
+    private Scanner entradaUsuario;
+    private int valorEntrado;
     
     public GerenciadorInput(){
         entradaUsuario = new Scanner(System.in);
