@@ -9,7 +9,7 @@ import java.util.InputMismatchException;
 
 /**
  *
- * @author Felipe
+ * @author Felipe e Gustavo
  */
 class TransacaoSaque {
 

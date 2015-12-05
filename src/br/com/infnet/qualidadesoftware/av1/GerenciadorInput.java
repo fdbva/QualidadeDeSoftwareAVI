@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Felipe
+ * @author Felipe e Gustavo
  */
 class GerenciadorInput {
     private Scanner entradaUsuario;

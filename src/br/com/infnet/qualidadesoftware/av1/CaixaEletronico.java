@@ -7,7 +7,7 @@ package br.com.infnet.qualidadesoftware.av1;
 
 /**
  *
- * @author Felipe
+ * @author Felipe e Gustavo
  */
 
 public class CaixaEletronico {
