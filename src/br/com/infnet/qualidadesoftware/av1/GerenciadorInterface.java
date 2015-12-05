@@ -11,13 +11,21 @@ package br.com.infnet.qualidadesoftware.av1;
  */
 class GerenciadorInterface {
 
-    static void imprimirCabecalhoSaque() {
-        StringBuilder cabecalhoSaque = new StringBuilder();
-        cabecalhoSaque.append("\n---------------------------------------\n");
-        cabecalhoSaque.append("\nCaixa Eletrônico - Saque\n");
-        cabecalhoSaque.append("\n---------------------------------------\n");
-        cabecalhoSaque.append("\nSaque realiazado com sucesso! \n");
-        System.out.print(cabecalhoSaque);
+    static void imprimirCabecalhoSaqueRealizado() {
+        StringBuilder cabecalhoSaqueRealizado = new StringBuilder();
+        cabecalhoSaqueRealizado.append("\n---------------------------------------\n");
+        cabecalhoSaqueRealizado.append("\nCaixa Eletrônico - Saque\n");
+        cabecalhoSaqueRealizado.append("\n---------------------------------------\n");
+        cabecalhoSaqueRealizado.append("\nSaque realiazado com sucesso! \n");
+        System.out.print(cabecalhoSaqueRealizado);
+    }
+    static void imprimirCabecalhoSaquePergunta() {
+        StringBuilder cabecalhoSaquePergunta = new StringBuilder();
+        cabecalhoSaquePergunta.append("\n---------------------------------------\n");
+        cabecalhoSaquePergunta.append("\nCaixa Eletrônico - Saque\n");
+        cabecalhoSaquePergunta.append("\n---------------------------------------\n");
+        cabecalhoSaquePergunta.append("\nQuantia: ");
+        System.out.print(cabecalhoSaquePergunta);
     }
 
     static void imprimirCabecalhoSaldo() {
@@ -40,7 +48,7 @@ class GerenciadorInterface {
         imprimirTotal("\nValor dos saques: ", totalSaques);
     }
     
-    private static void imprimirTotal(String tipoTotal, int total){ //rever nomes
+    private static void imprimirTotal(String tipoTotal, int total){
         StringBuilder mensagem = new StringBuilder();
         mensagem.append(tipoTotal);
         mensagem.append(total);
@@ -100,7 +108,7 @@ class GerenciadorInterface {
         System.out.print(CedulasValor);
     }
 
-    static void imprimirMenuPrincipal() { //TODO: passar variavel para campo da classe e transformar em singleton?
+    static void imprimirMenuPrincipal() {
         StringBuilder menuPrincipal = new StringBuilder();
         menuPrincipal.append("\n---------------------------------------\n");
         menuPrincipal.append("Caixa Eletrônico - Menu de Opções\n");
